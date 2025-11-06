@@ -1,0 +1,32 @@
+# Virtual Environment
+plex-env/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Analysis outputs
+analysis_results.json
+vmware_optimization_recommendations.csv
+results/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (uncomment if you don't want to commit sample data)
+# *.csv
