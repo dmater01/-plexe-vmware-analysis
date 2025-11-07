@@ -1,0 +1,7 @@
+# Optional dependencies for extended ML capabilities
+# These are NOT required for VMware ML Analyzer to function
+# Install with: pip install -r requirements-optional.txt
+
+# Deep learning frameworks (checked by test_installation.py)
+torch>=2.0.0,<3.0.0
+tensorflow>=2.12.0,<3.0.0

@@ -35,7 +35,10 @@ python -m venv plex-env
 source plex-env/bin/activate  # On Windows: plex-env\Scripts\activate
 
 # Install dependencies
-pip install pandas numpy scikit-learn
+pip install -r requirements.txt
+
+# Optional: Install additional ML frameworks (not required)
+pip install -r requirements-optional.txt
 ```
 
 ## Quick Start
